@@ -33,5 +33,6 @@ public:
 };
 int main() {
     SecureBankAccount a1(105, 499.0, "SavingsAccount", 202501);
+    a1.display();
     return 0;
 }
